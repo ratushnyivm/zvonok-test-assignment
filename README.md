@@ -62,7 +62,13 @@ dev:
 - flake8 6.0.0
 - pytest 7.4.0
 
-### Установка
+### Простая установка
+
+```bash
+pip install --user git+https://github.com/ratushnyyvm/zvonok-test-assignment.git
+```
+
+### Установка для авторов
 
 Перед установкой убедитесь, что у вас установлен [Poetry](https://python-poetry.org/)
 
