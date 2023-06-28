@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "zvonok-test-assignment"
+version = "0.1.0"
+description = ""
+authors = ["ratushnyyvm <ratushnyyvm@gmail.com>"]
+readme = "README.md"
+packages = [{include = "zvonok_test_assignment"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.scripts]
+zvonok = "zvonok_test_assignment.scripts.main:main"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
